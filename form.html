@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
     <body>
+        <header>
+            <h1>Elias Hotell</h1>
+            <nav>
+                <a href="index.html">Hem</a>
+                <a href="boka.html">Tillbaka</a>
+            </nav>
+        </header>
         <main>
             <section>
-                <form>
+                <form action="confirm.html">
                     <label>
                         Namn:
                         <input type="text" name="name" required>
@@ -19,7 +31,7 @@
                         <input type="date" name="checkout" required>
                     </label>
                     
-                    <button type="submit">Boka</button>
+                    <button type="submit" class="btn">Boka</button>
                 </form>
             </section>
         </main>
